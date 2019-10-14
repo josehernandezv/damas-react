@@ -1,11 +1,13 @@
 import React from 'react';
+import Home from './pages/Home';
+import Layout from './components/common/Layout';
 
 const App = () => {
-  return (
-    <div>
-        <h1>Damas</h1>
-    </div>
-  );
-}
+    return (
+        <Layout>
+            <Home />
+        </Layout>
+    );
+};
 
 export default App;
