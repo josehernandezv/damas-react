@@ -1,0 +1,19 @@
+.wrapper {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    border: 2px solid #d3d3d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.74);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.74);
+    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.74);
+}
+
+.center {
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    border: 2px solid #d3d3d3;
+}

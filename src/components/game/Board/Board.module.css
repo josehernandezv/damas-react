@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: repeat(8, 11vw);
+    grid-template-rows: repeat(8, 11vw);
+    border: 10px solid #cc9864;
+}
+
+@media (min-width: 768px) {
+    .container {
+        grid-template-columns: repeat(8, 70px);
+        grid-template-rows: repeat(8, 70px);
+    }
+}
